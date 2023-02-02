@@ -10,7 +10,7 @@ const doFirst = () => {
 
   // 在建立event
   playButton.addEventListener('click', playOrPause)
-  // defaultBar.addEventListener('click', clickBar)
+  defaultBar.addEventListener('click', clickBar)
 
   //? full screen
   /*
@@ -39,6 +39,13 @@ const update = () => {
     playButton.innerText = 'play'
     myMovie.currentTime = 0
   }
+}
+const clickBar = (e) => {
+  let mouseX = e.clientX - defaultBar.offsetLeft
+  progress.style.width = `${mouseX}px`
+
+  let newTime = mouseX / (barsize / myMovie.duration)
+  myMovie.currentTime = newTime
 }
 
 window.addEventListener('load', doFirst)
