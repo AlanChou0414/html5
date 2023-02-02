@@ -1,0 +1,9 @@
+#left,
+#right {
+  width: 250px;
+  height: 250px;
+  border: 3px dashed #cba;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
