@@ -1,3 +1,10 @@
+上課使用連結.txt
+
+Details
+
+Activity
+
+
 免費 + 付費圖庫
 https://www.freepik.com/
 https://pixabay.com/
@@ -19,6 +26,7 @@ https://coolors.co/
 學習網站
 https://www.w3schools.com/
 
+專題可能使用: 
 email.js
 https://www.emailjs.com/
 
@@ -31,6 +39,12 @@ https://blog.techbridge.cc/2017/10/14/payment-request-api/
 
 綠界科技 API
 https://www.ecpay.com.tw/Service/API_Dwnld
+
+html2canvas
+https://html2canvas.hertzen.com/
+
+summernote
+https://github.com/summernote/react-summernote
 
 專題參考
 https://goo.gl/0ru0Lr
